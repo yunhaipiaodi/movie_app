@@ -7,6 +7,7 @@ AppState appReducer(AppState appState,dynamic action){
     return new AppState(
       "http://img.duoziwang.com/2018/04/2411203527983.jpg",
     );
+  }else{
+    return appState;
   }
-
 }
