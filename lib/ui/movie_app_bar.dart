@@ -63,6 +63,7 @@ class _MovieAppBarState extends State<MovieAppBar>{
             color: Colors.white,
             size: 24.0,
         ),
+        onPressed: null,
       ),
       IconButton(
         icon:Icon(
@@ -70,6 +71,7 @@ class _MovieAppBarState extends State<MovieAppBar>{
           color: Colors.white,
           size: 24.0,
         ),
+        onPressed: null,
       ),
     ];
   }
