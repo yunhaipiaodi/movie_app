@@ -2,6 +2,7 @@
 import 'package:meta/meta.dart';
 import 'package:movie_app/model/loading_status.dart';
 import 'package:movie_app/model/show.dart';
+import 'package:movie_app/model/show_cache.dart';
 
 @immutable
 class ShowState {

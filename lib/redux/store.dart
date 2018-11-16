@@ -6,7 +6,7 @@ import 'package:movie_app/redux/app/app_reducer.dart';
 Store<AppState> createStore(){
   return Store(
     appReducer,
-    initialState: new AppState(null),
+    initialState: AppState.init(),
     distinct: true,
   );
 }
